@@ -1,6 +1,7 @@
 # Configuration settings
 DISTRO_CODE?=pop-os
-DISTRO_VERSION?=22.04
+DISTRO_VERSION?=24.04
+DISTRO_ARCH?=arm64
 
 DISTRO_EPOCH?=$(shell date +%s)
 DISTRO_DATE?=$(shell date +%Y%m%d)
